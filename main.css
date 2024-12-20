@@ -1,0 +1,203 @@
+body {
+  color: #1f392c;
+  background-color: #f8f5f0;
+}
+
+.bg_dark_pink {
+  background-color: #ff60e6;
+}
+
+.border_pink {
+  border-color: #ff60e6 !important;
+  color: #000;
+}
+
+.border_pink:hover {
+  background-color: #ff60e6;
+}
+
+.active {
+  background-color: #ff60e6;
+}
+
+.bg_light_pink {
+  background-color: #ffadf2;
+}
+
+.margin_top {
+  margin-top: 10rem;
+}
+
+.border_radius {
+  border-radius: 1rem;
+}
+
+.hero_heading {
+  font-size: 4rem;
+  padding: 0 5rem;
+}
+
+.description_font_size {
+  font-size: 0.8rem;
+}
+
+.hero_description {
+  padding: 0 7rem;
+}
+
+.input_wrapper {
+  width: 30rem;
+  margin-left: 10.5rem;
+}
+
+.wrapper_btn {
+  right: 6rem;
+}
+
+.line_img_1 {
+  height: 40rem;
+  left: -10rem;
+}
+
+.line_img_2 {
+  right: -10rem;
+  top: 7rem;
+}
+
+.line_img_3 {
+  width: 18rem;
+  top: 8rem;
+  right: 20rem;
+}
+
+.line_img_4 {
+  width: 30rem;
+  left: -4rem;
+  top: 2rem;
+}
+
+.line_img_5 {
+  right: -10rem;
+  top: 8rem;
+}
+
+.line_img_6 {
+  left: -10rem;
+  top: -8rem;
+}
+
+.hand_img_1 {
+  left: -9rem;
+}
+
+.hand_img_2 {
+  right: -10rem;
+  top: 20rem;
+}
+
+.hand_img_3 {
+  left: -10rem;
+  top: -17rem;
+}
+
+.hand_img_4 {
+  right: -10rem;
+  top: 20rem;
+}
+
+.inst_icon {
+  left: -8rem;
+  top: 16rem;
+}
+
+.light_icon1 {
+  top: 15rem;
+  left: 3rem;
+}
+
+.light_icon2 {
+  right: 5rem;
+  top: 10rem;
+}
+
+.fb_icon1 {
+  left: -5rem;
+  top: 34rem;
+}
+
+.fb_icon2 {
+  right: -8rem;
+  top: 5rem;
+}
+
+.youtube_img_1 {
+  right: -1rem;
+  top: 33rem;
+}
+
+.like_icon_1 {
+  left: 1rem;
+  bottom: 13rem;
+}
+
+.like_icon_2 {
+  right: 1rem;
+  bottom: 12rem;
+}
+
+.heading_style {
+  font-size: 2.5rem;
+  padding: 0 10rem;
+}
+
+.h2_padding {
+  padding: 0 14.2rem;
+}
+
+.card_width {
+  width: 20rem;
+  height: 10rem;
+  border-radius: 1rem;
+}
+
+.first_card {
+  right: 8rem;
+  top: 11rem;
+}
+
+.second_card {
+  right: -16rem;
+  top: 11rem;
+}
+
+.youtube_img {
+  right: 12rem;
+  top: 12rem;
+}
+
+.client_img {
+  width: 2.5rem;
+  margin: 0 0.5rem;
+
+}
+
+.pagination_icons {
+  right: -30rem;
+  bottom: 0.5rem;
+}
+
+.vector_img_1 {
+  width: 20rem;
+  top: 2.7rem;
+  left: 10.3rem;
+}
+
+.vector_img_2 {
+  width: 6rem;
+  left: 7rem;
+  bottom: 7.6rem;
+}
+
+.testimonial_imgs {
+	right: -12rem;
+}
