@@ -286,19 +286,17 @@ body {
 @media (max-width: 576px) {
 
   .margin_top {
-    margin-top: 5rem;
+    margin-top: 8rem;
   }
 
   .first_card {
-    display: none;
-    left: 15rem;
-    top: 10rem;
+    left: 1rem;
+    top: -2rem;
   }
 
   .second_card {
-    display: none;
-    left: 1rem;
-    top: 33rem;
+    left: 0.3rem;
+    top: 9rem;
   }
 
   .description_font_size {
@@ -307,10 +305,7 @@ body {
   }
 
   .card_width {
-    width: 15rem;
+    width: 16.5rem;
   }
 
-  /* .margin_top {
-    margin-top: 0;
-  } */
 }
