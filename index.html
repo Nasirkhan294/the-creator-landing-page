@@ -16,9 +16,10 @@
   </head>
   <body>
     <header class="container mt-4">
-      <nav class="navbar navbar-expand-lg  navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#"
-          ><img src="assets/Logo.png" alt="The Creator logo" class="mr-2"/> The Creator</a
+          ><img src="assets/Logo.png" alt="The Creator logo" class="mr-2" /> The
+          Creator</a
         >
         <button
           class="navbar-toggler"
@@ -43,7 +44,10 @@
             <li class="nav-item"><a class="nav-link" href="#">Review</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Charity</a></li>
           </ul>
-          <button type="button" class="btn px-4 py-2 ml-5 rounded-pill bg_dark_pink">
+          <button
+            type="button"
+            class="btn px-4 py-2 ml-5 rounded-pill bg_dark_pink"
+          >
             Join The Creator
           </button>
         </div>
@@ -51,7 +55,7 @@
     </header>
     <main>
       <section
-        class="container d-flex justify-content-center position-relative"
+        class="container d-flex justify-content-center flex-column flex-lg-row align-items-center position-relative"
       >
         <img
           src="assets/Line_1.png"
@@ -103,7 +107,7 @@
           alt="human hand"
           class="position-absolute hand_img_2"
         />
-        <div class="col-8 my-5 text-center">
+        <div class="col-lg-8 col-md-10 col-sm-12 my-5 text-center">
           <h1 class="mt-5 hero_heading">
             Spark your brand's imaginative flair with us
           </h1>
@@ -112,22 +116,21 @@
             into your brand. Collaborate with us to leave a lasting impression
             on your audience.
           </p>
-          <div class="input-group-append input_wrapper position-relative mt-4">
+          <div class="input-group mt-4 position-relative">
             <input
               type="text"
-              class="form-control w-75 rounded-pill"
+              class="form-control rounded-pill"
               placeholder="Enter your Email"
               aria-label="Enter your Email"
-              aria-describedby="button-addon2"
             />
-
-            <button
-              class="btn btn-secondary px-3 rounded-pill wrapper_btn bg_dark_pink position-absolute"
-              type="button"
-              id="button-addon2"
-            >
-              Join
-            </button>
+            <div class="input-group-append position-absolute join_btn">
+              <button
+                class="btn btn-secondary px-3 rounded-pill bg_dark_pink"
+                type="button"
+              >
+                Join
+              </button>
+            </div>
           </div>
         </div>
       </section>
@@ -137,73 +140,81 @@
         <img
           src="assets/Line_3.png"
           alt="line"
-          class="position-absolute line_img_3"
+          class="position-absolute line_img_3 d-none d-lg-block"
         />
         <img
           src="assets/Line_4.png"
           alt="Curly line"
-          class="position-absolute line_img_4"
+          class="position-absolute line_img_4 d-none d-lg-block"
         />
-        <div class="col-10 mt-5 text-center position-relative">
+        <div class="col-12 col-md-10 mt-5 text-center position-relative">
           <h2 class="heading_style">
             Contact us today to explore partnership opportunities!
           </h2>
-          <div class="p-5 bg-light text-left mt-5 border_radius">
+          <div class="p-4 bg-light text-left mt-4 border_radius">
             <h4 class="mb-3">Partners:</h4>
-            <p class="w-50 description_font_size">
+            <p class="description_font_size">
               Our creative agency forms strong partnerships with diverse
               businesses, from startups to global brands, based on trust,
               respect, and a shared vision for success.
             </p>
           </div>
-          <div
-            class="card first_card bg_dark_pink card_width p-3 position-absolute"
-          >
-            <div class="d-flex justify-content-around align-items-center">
-              <img
-                src="assets/twitter_icon.png"
-                alt="twitter logo"
-                style="width: 2rem; margin-bottom: 1rem"
-              />
-              <p style="margin-top: 0.3rem">2008 - Today</p>
+          <div class="row mt-5 justify-content-center">
+            <div
+              class="card first_card bg_dark_pink card_width p-3 m-3 position-relative"
+            >
+              <div class="d-flex justify-content-between align-items-center">
+                <img
+                  src="assets/twitter_icon.png"
+                  alt="twitter logo"
+                  style="width: 2rem"
+                />
+                <p class="mb-0">2008 - Today</p>
+              </div>
+              <p class="description_font_size mt-3">
+                Provides communication between the agency and brands. Collects
+                customer feedback and encourages discussion about the product,
+                which helps improve it.
+              </p>
             </div>
-            <p class="description_font_size">
-              Provides communication between the agency and brands. Collects
-              customer feedback and encourages discussion about the product,
-              which helps improve it.
-            </p>
-          </div>
-          <div
-            class="card second_card bg_light_pink card_width p-3 position-absolute"
-          >
-            <div class="d-flex justify-content-around">
-              <img
-                src="assets/pinterest_icon.png"
-                alt="pinterest logo"
-                style="width: 2rem; height: 2rem; margin-bottom: 1rem"
-              />
-              <p style="margin-top: 0.3rem">2008 - Today</p>
+            <div
+              class="card second_card bg_light_pink card_width p-3 m-3 position-relative"
+            >
+              <div class="d-flex justify-content-between align-items-center">
+                <img
+                  src="assets/pinterest_icon.png"
+                  alt="pinterest logo"
+                  style="width: 2rem"
+                />
+                <p class="mb-0">2008 - Today</p>
+              </div>
+              <p class="description_font_size mt-3">
+                Provides communication between the agency and brands. Collects
+                customer feedback and encourages discussion about the product,
+                which helps improve it.
+              </p>
             </div>
-            <p class="description_font_size">
-              Provides communication between the agency and brands. Collects
-              customer feedback and encourages discussion about the product,
-              which helps improve it.
-            </p>
           </div>
         </div>
       </section>
       <section class="container margin_top position-relative">
         <div class="row justify-content-center">
-          <div class="col-10 mt-5">
+          <div class="col-12 col-md-10 mt-5">
             <h2 class="heading_style text-center mb-5">
-              Making it big on any Platform is tougher than you thing
+              Making it big on any Platform is tougher than you think
             </h2>
-            <img src="assets/image.png" alt="social media image" />
-            <img
-              src="assets/ytb_icon.png"
-              alt="youtube icon"
-              class="position-absolute youtube_img"
-            />
+            <div class="position-relative text-center">
+              <img
+                src="assets/image.png"
+                alt="social media image"
+                class="img-fluid"
+              />
+              <img
+                src="assets/ytb_icon.png"
+                alt="youtube icon"
+                class="position-absolute youtube_img"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -211,55 +222,56 @@
         <img
           src="assets/line_5.png"
           alt="Curly line"
-          class="position-absolute line_img_5"
+          class="position-absolute line_img_5 d-none d-lg-block"
         />
         <img
           src="assets/line_6.png"
           alt="Curly line"
-          class="position-absolute line_img_6"
+          class="position-absolute line_img_6 d-none d-lg-block"
         />
         <img
           src="assets/hands_3.png"
           alt="human hand"
-          class="position-absolute hand_img_3"
+          class="position-absolute hand_img_3 d-none d-lg-block"
         />
         <img
           src="assets/hands_4.png"
           alt="human hand"
-          class="position-absolute hand_img_4"
+          class="position-absolute hand_img_4 d-none d-lg-block"
         />
         <img
           src="assets/like_icon_1.png"
           alt="like icon"
-          class="position-absolute like_icon_1"
+          class="position-absolute like_icon_1 d-none d-lg-block"
         />
         <img
           src="assets/like_icon_2.png"
           alt="like icon"
-          class="position-absolute like_icon_2"
+          class="position-absolute like_icon_2 d-none d-lg-block"
         />
         <div class="row justify-content-center">
-          <div class="col-10 mt-5 text-center">
-            <h2 class="heading_style h2_padding mt-5">
+          <div class="col-12 col-md-10 text-center">
+            <h2 class="heading_style mt-5">
               We do it for you. No more struggling to grow on any Platform
             </h2>
-            <h3 class="my-5">
-              work with our expert strategists <br />
+            <h3 class="my-4">
+              Work with our expert strategists, <br />
               writers, editors, and producers to create content <br />
-              that transforms your content
+              that transforms your brand
             </h3>
             <p class="description_font_size">
               No managing a team of freelancers or spending countless hours
               trying to <br />
-              master all the skillsets Platform requires - all you need is The
+              master all the skillsets Platforms require - all you need is The
               Creator
             </p>
           </div>
         </div>
       </section>
       <section class="container justify-content-center margin_top">
-        <div class="row justify-content-around px-5">
-          <div class="col-4">
+        <!-- Research & Analysis Section -->
+        <div class="row align-items-center justify-content-around px-3 mb-5">
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
             <h3>1# Research & Analysis</h3>
             <p>
               Our agency's research-driven approach involves gathering insights
@@ -269,45 +281,62 @@
               campaigns that resonate with our clients' audiences.
             </p>
           </div>
-          <div class="col-4">
+          <div class="col-12 col-md-5 text-center">
             <img
               src="assets/girl_1.png"
               alt="Girl watching through the mirror"
+              class="img-fluid"
             />
           </div>
         </div>
-        <div class="row justify-content-between px-3 my-5">
-          <div class="col-4">
-            <img src="assets/girl_2.png" alt="girl holding laptop" />
+
+        <!-- Concept Development Section -->
+        <div class="row align-items-center justify-content-between px-3 my-5">
+          <div class="col-12 col-md-5 text-center order-2 order-md-1">
+            <img
+              src="assets/girl_2.png"
+              alt="Girl holding laptop"
+              class="img-fluid"
+            />
           </div>
-          <div class="col-4">
-            <h3>2# Concept development:</h3>
+          <div class="col-12 col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+            <h3>2# Concept Development</h3>
             <p>
               Based on the brief and research, the agency's creative team
-              generates ideas for the compaign. These concepts are presented to
+              generates ideas for the campaign. These concepts are presented to
               the client for feedback and refinement.
             </p>
           </div>
         </div>
-        <div class="row justify-content-around px-3">
-          <div class="col-4">
-            <h3>3# Design and execution:</h3>
+
+        <!-- Design and Execution Section -->
+        <div class="row align-items-center justify-content-around px-3">
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
+            <h3>3# Design and Execution</h3>
             <p>
               Once the concept is approved, the agency's designers and
               developers bring it to life. This includes creating visual assets,
               writing copy, and developing multimedia content.
             </p>
           </div>
-          <div class="col-4">
-            <img src="assets/girl_3.png" alt="girl holding tablet" />
+          <div class="col-12 col-md-5 text-center">
+            <img
+              src="assets/girl_3.png"
+              alt="Girl holding tablet"
+              class="img-fluid"
+            />
           </div>
         </div>
       </section>
       <section class="container justify-content-center margin_top">
-        <p class="text-center">
-          Hear from our customers from Top YouTube Channel
+        <!-- Section Intro -->
+        <p class="text-center mb-4">
+          Hear from our customers from Top YouTube Channels
         </p>
-        <div class="col-8 mt-5 position-relative">
+
+        <!-- Main Content -->
+        <div class="col-12 col-lg-8 mx-auto position-relative text-center">
+          <!-- Decorative Lines -->
           <img
             src="assets/Vector_1.png"
             alt="Curly line"
@@ -318,11 +347,13 @@
             alt="Curly line"
             class="position-absolute vector_img_2"
           />
+
+          <!-- Heading with Client Images -->
           <h2>
             We've taught
             <img
               src="assets/Frame_1.png"
-              alt="A Beared man with glasses"
+              alt="A Bearded man with glasses"
               class="client_img"
             />
             over 3,000 creators <br />
@@ -339,78 +370,118 @@
               class="client_img"
             />
           </h2>
+
           <h2 class="my-5">Now we can do it for you</h2>
-          <div
-            class="container d-flex justify-content-between p-0 position-relative"
-          >
-            <h3>See what our famous clients <br />write about us:</h3>
-            <ul class="pagination position-absolute pagination_icons">
-              <li class="page-item mr-2">
-                <a href="#" aria-label="Previous" class="border border_pink rounded-circle p-2">
-                  <i class="fa-solid fa-arrow-left-long"></i>
-                </a>
-              </li>
-              <li class="page-item">
-                <a href="#" aria-label="Next" class="border border_pink rounded-circle p-2 active">
-                  <i class="fa-solid fa-arrow-right-long"></i>
-                </a>
-              </li>
-            </ul>
+
+          <!-- Client Testimonials -->
+          <div class="row align-items-center position-relative">
+            <div class="col-12 col-lg-7 text-left">
+              <h3>See what our famous clients <br />write about us:</h3>
+            </div>
+            <div class="col-12 col-lg-5 text-right">
+              <ul class="pagination pagination_icons">
+                <li class="page-item">
+                  <a
+                    href="#"
+                    aria-label="Previous"
+                    class="border border_pink rounded-circle p-2"
+                  >
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                  </a>
+                </li>
+                <li class="page-item ml-2">
+                  <a
+                    href="#"
+                    aria-label="Next"
+                    class="border border_pink rounded-circle p-2 active"
+                  >
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
       <section class="container my-5">
-        <div class="container d-flex">
-          <div class="col-4 bg_light_pink p-3 border_radius">
-            <img src="assets/Avatar_1.png" alt="Man photo with side pose" />
-            <h4 class="mt-3">John Li</h4>
-            <p class="description_font_size w-75">
-              The Creator innovative ideas, strategic approach, and outstanding
-              results have left a lasting impression on me as a blogger, making
-              them a standout in the creative industry.
-            </p>
+        <div class="row justify-content-center">
+          <!-- Card 1 -->
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="bg_light_pink p-3 border_radius text-center">
+              <img
+                src="assets/Avatar_1.png"
+                alt="Man photo with side pose"
+                class="img-fluid mb-3"
+              />
+              <h4 class="mt-2">John Li</h4>
+              <p class="description_font_size">
+                The Creator's innovative ideas, strategic approach, and
+                outstanding results have left a lasting impression on me as a
+                blogger, making them a standout in the creative industry.
+              </p>
+            </div>
           </div>
-          <div class="col-4 border_radius mx-3 bg_dark_pink p-3">
-            <img src="assets/Avatar_2.png" alt="woman with front pose" />
-            <h4 class="mt-3">Amanda Steen</h4>
-            <p class="description_font_size w-75">
-              The Creator innovative ideas, strategic approach, and outstanding
-              results have left a lasting impression on me as a blogger, making
-              them a standout in the creative industry.
-            </p>
+          <!-- Card 2 -->
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="bg_dark_pink p-3 border_radius text-center text-white">
+              <img
+                src="assets/Avatar_2.png"
+                alt="Woman with front pose"
+                class="img-fluid mb-3"
+              />
+              <h4 class="mt-2">Amanda Steen</h4>
+              <p class="description_font_size">
+                The Creator's innovative ideas, strategic approach, and
+                outstanding results have left a lasting impression on me as a
+                blogger, making them a standout in the creative industry.
+              </p>
+            </div>
           </div>
-          <div class="col-4 bg_light_pink p-3 border_radius">
-            <img src="assets/Avatar_3.png" alt="Man photo with front face" />
-            <h4 class="mt-3">Nicholas Love</h4>
-            <p class="description_font_size w-75">
-              The Creator innovative ideas, strategic approach, and outstanding
-              results have left a lasting impression on me as a blogger, making
-              them a standout in the creative industry.
-            </p>
+          <!-- Card 3 -->
+          <div class="col-12 col-md-6 col-lg-4 mb-4">
+            <div class="bg_light_pink p-3 border_radius text-center">
+              <img
+                src="assets/Avatar_3.png"
+                alt="Man photo with front face"
+                class="img-fluid mb-3"
+              />
+              <h4 class="mt-2">Nicholas Love</h4>
+              <p class="description_font_size">
+                The Creator's innovative ideas, strategic approach, and
+                outstanding results have left a lasting impression on me as a
+                blogger, making them a standout in the creative industry.
+              </p>
+            </div>
           </div>
         </div>
       </section>
       <section class="container margin_top">
         <div class="row justify-content-around">
-          <div class="col-4 bg_dark_pink px-0 pt-5 border_radius">
-            <img
-              src="assets/footer_logos_1.png"
-              alt="social icons"
-              class="w-100"
-            />
-            <img
-              src="assets/footer_logos_2.png"
-              alt="social icons"
-              class="w-100"
-            />
-            <p class="description_font_size mt-4 ml-4 w-75">
-              We've participated in events for children's education, health
-              initiatives, and disaster relief. We're dedicated to ongoing
-              involvement and exploring new opportunities.
-            </p>
+          <!-- Charity Info with Logos -->
+          <div
+            class="col-12 col-md-5 bg_dark_pink px-0 pt-5 border_radius mb-4 mb-md-0"
+          >
+            <div class="px-4">
+              <img
+                src="assets/footer_logos_1.png"
+                alt="social icons"
+                class="img-fluid mb-3"
+              />
+              <img
+                src="assets/footer_logos_2.png"
+                alt="social icons"
+                class="img-fluid mb-4"
+              />
+              <p class="description_font_size">
+                We've participated in events for children's education, health
+                initiatives, and disaster relief. We're dedicated to ongoing
+                involvement and exploring new opportunities.
+              </p>
+            </div>
           </div>
-          <div class="col-4 bg-light p-5 border_radius w-75">
-            <h2>Charity</h2>
+          <!-- Charity Text Info -->
+          <div class="col-12 col-md-5 bg-light p-4 p-md-5 border_radius">
+            <h2 class="text-center text-md-left">Charity</h2>
             <p class="description_font_size">
               Our creative agency supports charities globally, using our skills
               in branding, marketing, and social media to make a positive impact
@@ -419,28 +490,28 @@
           </div>
         </div>
       </section>
+
       <section class="container d-flex justify-content-center margin_top">
-        <div class="col-8 my-5 text-center">
+        <div class="col-12 col-md-8 text-center my-5">
           <h2>We are waiting for you to contact us</h2>
           <p class="description_font_size my-4">
             You can write to us at any time and get an instant response
           </p>
-          <div class="input-group-append input_wrapper position-relative mt-4">
+          <div class="input-group mt-4 position-relative">
             <input
               type="text"
-              class="form-control w-75 rounded-pill"
+              class="form-control rounded-pill w-75"
               placeholder="Enter your Email"
               aria-label="Enter your Email"
-              aria-describedby="button-addon"
             />
-
-            <button
-              class="btn btn-secondary px-3 rounded-pill wrapper_btn bg_dark_pink position-absolute"
-              type="button"
-              id="button-addon"
-            >
-              Join
-            </button>
+            <div class="input-group-append position-absolute join_btn">
+              <button
+                class="btn btn-secondary px-4 rounded-pill bg_dark_pink text-white"
+                type="button"
+              >
+                Join
+              </button>
+            </div>
           </div>
         </div>
       </section>
@@ -461,9 +532,9 @@
           </ul>
         </div>
         <div class="ml-auto">
-              <i class="fa-brands fa-instagram h4"></i>
-              <i class="fa-brands fa-facebook h4 mx-2"></i>
-              <i class="fa-brands fa-linkedin h4"></i>
+          <i class="fa-brands fa-instagram h4"></i>
+          <i class="fa-brands fa-facebook h4 mx-2"></i>
+          <i class="fa-brands fa-linkedin h4"></i>
         </div>
       </nav>
     </footer>
