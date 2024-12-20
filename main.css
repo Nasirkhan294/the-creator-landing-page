@@ -281,10 +281,15 @@ body {
     margin-top: 1rem;
   }
 
+  
 }
 
 @media (max-width: 576px) {
-
+  
+  .card {
+    width: 100%;
+    max-width: 18rem;
+  }
   .margin_top {
     margin-top: 8rem;
   }
