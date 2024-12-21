@@ -1,12 +1,19 @@
+/* General Styles */
 body {
   color: #1f392c;
   background-color: #f8f5f0;
 }
 
+/* Background Colors */
 .bg_dark_pink {
   background-color: #ff60e6;
 }
 
+.bg_light_pink {
+  background-color: #ffadf2;
+}
+
+/* Borders */
 .border_pink {
   border-color: #ff60e6 !important;
   color: #000;
@@ -14,18 +21,16 @@ body {
 
 .border_pink:hover {
   background-color: #ff60e6 !important;
-  color:#fff;
+  color: #fff;
 }
 
+/* Active State */
 .active {
   background-color: #ff60e6 !important;
   color: #fff;
 }
 
-.bg_light_pink {
-  background-color: #ffadf2;
-}
-
+/* Margins and Radius */
 .margin_top {
   margin-top: 10rem;
 }
@@ -34,29 +39,23 @@ body {
   border-radius: 1rem;
 }
 
+/* Hero Section */
 .hero_heading {
   font-size: 4rem;
   padding: 0 5rem;
-}
-
-.description_font_size {
-  font-size: 1rem;
-  line-height: 1.5;
 }
 
 .hero_description {
   padding: 0 7rem;
 }
 
-.input_wrapper {
-  width: 30rem;
-  margin-left: 10.5rem;
+/* Font Sizes */
+.small_font_size {
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
-.wrapper_btn {
-  right: 6rem;
-}
-
+/* Line Images */
 .line_img_1 {
   height: 40rem;
   left: -10rem;
@@ -89,6 +88,7 @@ body {
   top: -8rem;
 }
 
+/* Hand Images */
 .hand_img_1 {
   left: -9rem;
 }
@@ -108,6 +108,7 @@ body {
   top: 20rem;
 }
 
+/* Icons */
 .inst_icon {
   left: -8rem;
   top: 16rem;
@@ -133,19 +134,13 @@ body {
   top: 5rem;
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-
 .youtube_img {
-  /* right: -1rem;
-  top: 33rem; */
   width: 3rem;
   top: -2rem;
   right: 2rem;
 }
 
+/* Like Icons */
 .like_icon_1 {
   left: 1rem;
   bottom: 13rem;
@@ -156,6 +151,7 @@ body {
   bottom: 12rem;
 }
 
+/* Heading and Cards */
 .heading_style {
   font-size: 2.5rem;
   padding: 0 10rem;
@@ -163,12 +159,6 @@ body {
 
 .h2_padding {
   padding: 0 14.2rem;
-}
-
-.card_width {
-  width: 20rem;
-  height: 10rem;
-  border-radius: 1rem;
 }
 
 .first_card {
@@ -181,11 +171,7 @@ body {
   top: 11rem;
 }
 
-.youtube_img {
-  right: 12rem;
-  top: 12rem;
-}
-
+/* Client Images */
 .client_img {
   width: 2.5rem;
   height: 2.5rem;
@@ -193,12 +179,14 @@ body {
   vertical-align: middle;
 }
 
+/* Pagination */
 .pagination_icons {
   display: flex;
   gap: 0.5rem;
   justify-content: flex-end;
 }
 
+/* Vector Images */
 .vector_img_1 {
   width: 20rem;
   top: 2rem;
@@ -211,12 +199,18 @@ body {
   bottom: 1rem;
 }
 
+/* Testimonial Images */
 .testimonial_imgs {
   right: -12rem;
 }
 
+/* Image Fluid */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 
-
+/* Media Queries */
 @media (max-width: 768px) {
   .hero_heading {
     font-size: 2rem;
@@ -247,7 +241,7 @@ body {
   }
 
   .join_btn {
-    right: -1rem;
+    left: 12rem;
   }
 
   .heading_style {
@@ -267,8 +261,8 @@ body {
 
   .vector_img_2 {
     width: 5rem;
-    bottom: 12rem;
-    right: 6rem;
+    bottom: 7.8rem;
+    left: 8rem;
   }
 
   .client_img {
@@ -280,37 +274,32 @@ body {
     justify-content: center;
     margin-top: 1rem;
   }
-
-  
 }
 
 @media (max-width: 576px) {
-  
-  .card {
-    width: 100%;
-    max-width: 18rem;
-  }
   .margin_top {
     margin-top: 8rem;
   }
 
   .first_card {
-    left: 1rem;
+    left: 0rem;
     top: -2rem;
   }
 
   .second_card {
-    left: 0.3rem;
-    top: 9rem;
+    left: 0rem;
+    top: 9.5rem;
   }
 
-  .description_font_size {
+  .small_font_size {
     font-size: 0.8rem;
     line-height: 1.4;
   }
 
-  .card_width {
-    width: 16.5rem;
+  /* Input Wrapper */
+  .input_wrapper {
+    width: 100%;
+    max-width: 15rem;
+    margin-left: 2.5rem;
   }
-
 }
