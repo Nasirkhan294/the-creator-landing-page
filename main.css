@@ -4,8 +4,15 @@ body {
   background-color: #f8f5f0;
 }
 
+button:hover {
+  background-color: #f73edb;
+  color: #fff;
+}
+
 /* Background Colors */
-.bg_dark_pink, .border_pink:hover, .active {
+.bg_dark_pink,
+.border_pink:hover,
+.active {
   background-color: #ff60e6;
 }
 
@@ -32,10 +39,11 @@ body {
 .hero_heading {
   font-size: 4rem;
   padding: 0 5rem;
+  font-weight: bold;
 }
 
 .hero_description {
-  padding: 0 7rem;
+  padding: 0 4rem;
 }
 
 /* Font Sizes */
@@ -47,14 +55,15 @@ body {
 /* Line Images */
 .line_img_1 {
   height: 40rem;
-  left: -10rem;
+  left: -9rem;
+  top: 1rem;
 }
 
 .line_img_2 {
-  right: -10rem;
-  top: 7rem;
+  height: 32rem;
+  right: -8rem;
+  top: 8rem;
 }
-
 .line_img_3 {
   width: 18rem;
   top: 8rem;
@@ -78,12 +87,15 @@ body {
 
 /* Hand Images */
 .hand_img_1 {
+  height: 17rem;
+  top: -2rem;
   left: -9rem;
 }
 
 .hand_img_2 {
-  right: -10rem;
-  top: 20rem;
+  height: 25rem;
+  right: -7rem;
+  top: 18rem;
 }
 
 .hand_img_3 {
@@ -98,34 +110,38 @@ body {
 
 /* Icons */
 .inst_icon {
-  left: -8rem;
-  top: 16rem;
+  left: -7rem;
+  top: 17rem;
 }
 
 .light_icon1 {
-  top: 15rem;
-  left: 3rem;
+  top: 13rem;
+  left: 10rem;
 }
-
 .light_icon2 {
-  right: 5rem;
+  right: 12rem;
   top: 10rem;
 }
 
 .fb_icon1 {
-  left: -5rem;
-  top: 34rem;
+  left: -2rem;
+  bottom: -5rem;
 }
 
 .fb_icon2 {
-  right: -8rem;
+  right: -6rem;
   top: 5rem;
 }
 
 .youtube_img {
-  width: 3rem;
-  top: -2rem;
-  right: 2rem;
+  width: 8rem;
+  top: 1rem;
+  right: 8rem;
+}
+
+.youtube_img_1 {
+  right: 1rem;
+  bottom: -3rem;
 }
 
 /* Like Icons */
@@ -183,10 +199,26 @@ body {
   bottom: 1rem;
 }
 
+.vector_img_3 {
+  width: 22rem;
+  left: 21rem;
+  top: 11rem;
+}
+
 /* Image Fluid */
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+/* Input Wrapper */
+.input_wrapper {
+  width: 100%;
+  max-width: 25rem;
+}
+
+.join_btn {
+  left: 20rem;
 }
 
 /* Media Queries */
@@ -202,7 +234,6 @@ body {
   }
 
   .input_wrapper {
-    width: 100%;
     max-width: 22rem;
     margin-left: 6rem;
   }
@@ -356,7 +387,7 @@ body {
     left: 10rem;
   }
 
-   .fb_icon1 {
+  .fb_icon1 {
     left: 3rem;
     top: 22rem;
   }
@@ -366,7 +397,9 @@ body {
     top: 5rem;
   }
 
-  .fb_icon1, .fb_icon2, .client_img {
+  .fb_icon1,
+  .fb_icon2,
+  .client_img {
     height: 2rem;
   }
 
