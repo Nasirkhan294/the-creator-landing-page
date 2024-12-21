@@ -5,7 +5,7 @@ body {
 }
 
 /* Background Colors */
-.bg_dark_pink {
+.bg_dark_pink, .border_pink:hover, .active {
   background-color: #ff60e6;
 }
 
@@ -17,17 +17,6 @@ body {
 .border_pink {
   border-color: #ff60e6 !important;
   color: #000;
-}
-
-.border_pink:hover {
-  background-color: #ff60e6 !important;
-  color: #fff;
-}
-
-/* Active State */
-.active {
-  background-color: #ff60e6 !important;
-  color: #fff;
 }
 
 /* Margins and Radius */
@@ -73,7 +62,6 @@ body {
 }
 
 .line_img_4 {
-  width: 30rem;
   left: -4rem;
   top: 2rem;
 }
@@ -157,10 +145,6 @@ body {
   padding: 0 10rem;
 }
 
-.h2_padding {
-  padding: 0 14.2rem;
-}
-
 .first_card {
   right: 8rem;
   top: 11rem;
@@ -199,11 +183,6 @@ body {
   bottom: 1rem;
 }
 
-/* Testimonial Images */
-.testimonial_imgs {
-  right: -12rem;
-}
-
 /* Image Fluid */
 .img-fluid {
   max-width: 100%;
@@ -213,40 +192,65 @@ body {
 /* Media Queries */
 @media (max-width: 768px) {
   .hero_heading {
-    font-size: 2rem;
-    padding: 0 1rem;
+    font-size: 3rem;
+    padding: 0 4rem;
   }
 
   .hero_description {
-    font-size: 0.9rem;
-    padding: 0 1rem;
+    font-size: 0.8rem;
+    padding: 0 4rem;
   }
 
-  .line_img_1,
-  .line_img_2,
-  .hand_img_1,
-  .hand_img_2,
-  .light_icon1,
-  .light_icon2,
-  .fb_icon1,
-  .fb_icon2,
-  .youtube_img_1 {
-    display: none;
+  .input_wrapper {
+    width: 100%;
+    max-width: 22rem;
+    margin-left: 6rem;
+  }
+
+  .join_btn {
+    left: 19rem;
+  }
+
+  .margin_right {
+    margin-right: 18rem !important;
+  }
+
+  .margin_top {
+    margin-top: 0;
+  }
+
+  .small_font_size {
+    font-size: 0.8rem;
+  }
+
+  .height_20_rem {
+    height: 20rem;
+  }
+
+  .height_4_rem {
+    height: 4rem;
   }
 
   .youtube_img {
     top: 1rem;
     right: 4rem;
-    width: 2rem;
-  }
-
-  .join_btn {
-    left: 12rem;
+    width: 6rem;
   }
 
   .heading_style {
-    font-size: 1.5rem;
-    padding: 0;
+    font-size: 1.8rem;
+    margin: 0 3rem;
+    padding: 0 5rem;
+  }
+
+  .first_card {
+    right: 4rem;
+    top: -10.6rem;
+  }
+
+  .second_card {
+    left: 26rem;
+    top: -10.6rem;
   }
 
   h3 {
@@ -261,13 +265,124 @@ body {
 
   .vector_img_2 {
     width: 5rem;
-    bottom: 7.8rem;
+    bottom: 4.5rem;
     left: 8rem;
+  }
+
+  .vector_img_3 {
+    width: 17rem;
+    left: 11rem;
+    top: 7rem;
+  }
+
+  .light_icon1 {
+    top: 7rem;
+    left: 6rem;
+  }
+
+  .light_icon2 {
+    height: 5rem;
+    right: 6rem;
+    top: 6rem;
+  }
+
+  .hand_img_1 {
+    height: 9rem;
+    left: -2rem;
+    top: -2rem;
+  }
+
+  .hand_img_2 {
+    height: 16rem;
+    right: -2rem;
+    top: 14rem;
+  }
+
+  .hand_img_3 {
+    left: -2rem;
+    top: -10rem;
+  }
+
+  .hand_img_4 {
+    height: 16rem;
+    right: -3rem;
+    top: 11rem;
+  }
+
+  .inst_icon {
+    left: 0;
+    top: 10rem;
   }
 
   .client_img {
     width: 2rem;
+  }
+
+  .line_img_1 {
+    height: 26rem;
+    left: -1.5rem;
+  }
+
+  .line_img_2 {
+    right: -3rem;
+    top: 7rem;
+  }
+
+  .line_img_3 {
+    width: 12rem;
+    top: 4rem;
+    right: 12rem;
+  }
+
+  .line_img_4 {
+    left: -2rem;
+    top: 0rem;
+  }
+
+  .line_img_5 {
+    right: -2rem;
+    top: 0rem;
+  }
+
+  .line_img_6 {
+    height: 28rem;
+    left: -2rem;
+    top: -5rem;
+  }
+
+  .vector_img_1 {
+    width: 20rem;
+    top: 2.5rem;
+    left: 10rem;
+  }
+
+   .fb_icon1 {
+    left: 3rem;
+    top: 22rem;
+  }
+
+  .fb_icon2 {
+    right: 0;
+    top: 5rem;
+  }
+
+  .fb_icon1, .fb_icon2, .client_img {
     height: 2rem;
+  }
+
+  .youtube_img_1 {
+    right: 2rem;
+    bottom: 0rem;
+  }
+
+  .like_icon_2 {
+    right: 5rem;
+    bottom: 9rem;
+  }
+
+  .like_icon_1 {
+    left: 5rem;
+    bottom: 8rem;
   }
 
   .pagination_icons {
@@ -277,8 +392,36 @@ body {
 }
 
 @media (max-width: 576px) {
+  .hero_heading {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+
+  .hero_description {
+    font-size: 0.9rem;
+    padding: 0 1rem;
+  }
+
+  .join_btn {
+    left: 12rem;
+  }
+
+  .input_wrapper {
+    max-width: 15rem;
+    margin-left: 2.5rem;
+  }
+
+  .heading_style {
+    padding: 0;
+    margin: 0 2rem;
+  }
+
   .margin_top {
-    margin-top: 8rem;
+    margin-top: 10rem;
+  }
+
+  .margin_right {
+    margin-right: 0 !important;
   }
 
   .first_card {
@@ -296,10 +439,7 @@ body {
     line-height: 1.4;
   }
 
-  /* Input Wrapper */
-  .input_wrapper {
-    width: 100%;
-    max-width: 15rem;
-    margin-left: 2.5rem;
+  .youtube_img {
+    width: 3rem;
   }
 }
