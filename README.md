@@ -10,7 +10,7 @@
 
   <ul>
     <li>HTML</li>
-    <li>CSS</li>
+    <li>Bootstrap</li>
     <li>JavaScript</li>
   </ul>
 
@@ -18,8 +18,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-- [x] **Dynamic Testimonials**
-- [x] **Interactive Charity Section**
 - [x] **Responsive Design**
 - [x] **Contact Form with Validation**
 
