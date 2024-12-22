@@ -32,8 +32,8 @@ button:hover {
 }
 
 .margin_right {
-    margin-right: 38rem !important;
-  }
+  margin-right: 38rem !important;
+}
 
 .border_radius {
   border-radius: 1rem;
@@ -171,12 +171,12 @@ button:hover {
 }
 
 .first_card {
-  right: 8rem;
+  right: 14rem;
   top: -13.5rem;
 }
 
 .second_card {
-  right: -39rem;
+  right: -32rem;
   top: -13.5rem;
 }
 
@@ -235,7 +235,6 @@ button:hover {
   .hero_heading {
     font-size: 3rem;
     padding: 0 4rem;
-    font-weight: normal;
   }
 
   .hero_description {
@@ -315,8 +314,8 @@ button:hover {
   }
 
   .vector_img_3 {
-    width: 21rem;
-    left: 9rem;
+    width: 17rem;
+    left: 11rem;
     top: 7rem;
   }
 
@@ -441,7 +440,7 @@ button:hover {
 @media (max-width: 576px) {
   .hero_heading {
     font-size: 2rem;
-    padding: 0 1.5rem;
+    padding: 0 1rem;
   }
 
   .hero_description {
