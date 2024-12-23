@@ -5,22 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Creator Landing Page</title>
     <!-- Bootstrap Css Stylesheet -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <!-- Main Css Stylesheet -->
     <link rel="stylesheet" href="main.css" />
-    <!-- Fontawesome icons' kit -->
-    <script
-      src="https://kit.fontawesome.com/7f35089b8a.js"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Bootstrap Icons -->
+    <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <header class="container mt-4">
-      <!-- Navigation bar container -->
-      <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- Navigation bar container -->
+    <header class="container-fluid mt-4">
+      <nav class="container navbar navbar-expand-lg navbar-light">
         <!-- Logo and Brand -->
         <a class="navbar-brand" href="#">
-          <img src="assets/Logo.png" alt="The Creator logo" class="mr-2" />
+          <img src="assets/Logo.png" alt="The Creator logo" class="mr-auto" />
           The Creator
         </a>
 
@@ -39,11 +36,11 @@
 
         <!-- Collapsible navigation links and buttons -->
         <div
-          class="collapse navbar-collapse justify-content-center"
+          class="collapse navbar-collapse"
           id="navbarNav"
         >
           <!-- Navigation links -->
-          <ul class="navbar-nav col-6 justify-content-around">
+          <ul class="navbar-nav mx-auto">
             <li class="nav-item">
               <a class="nav-link" href="#">Partners</a>
             </li>
@@ -57,15 +54,13 @@
               <a class="nav-link" href="#">Charity</a>
             </li>
           </ul>
-
           <!-- Call-to-action button -->
-          <button
-            type="button"
-            class="btn px-4 py-2 ml-5 rounded-pill bg_dark_pink"
-          >
-            Join The Creator
+          <div class="">
+            <button type="button" class="btn px-4 py-2 rounded-pill bg_dark_pink">
+              Join The Creator
           </button>
         </div>
+      </div>
       </nav>
     </header>
 
@@ -165,9 +160,7 @@
         </div>
       </section>
 
-      <section
-        class="container position-relative margin_top"
-      >
+      <section class="container position-relative margin_top">
         <img
           src="assets/Line_3.png"
           alt="line"
@@ -195,13 +188,17 @@
               respect, and a shared vision for success.
             </p>
           </div>
-          <div class="row mt-5 mt-md-0 mx-0 justify-content-center position-relative">
+          <div
+            class="row mt-5 mt-md-0 mx-0 justify-content-center position-relative"
+          >
             <!-- Card 1: Twitter partnership -->
             <div
               class="first_card bg_dark_pink col-12 col-md-5 col-lg-4 p-3 p-md-2 position-absolute border_radius"
             >
               <!-- Card header with Twitter logo and timeline -->
-              <div class="d-flex justify-content-between align-items-center px-md-3">
+              <div
+                class="d-flex justify-content-between align-items-center px-md-3"
+              >
                 <img
                   src="assets/twitter_icon.png"
                   alt="twitter logo"
@@ -222,7 +219,9 @@
               class="second_card bg_light_pink col-12 col-md-5 col-lg-4 p-3 p-md-2 position-relative border_radius"
             >
               <!-- Card header with Pinterest logo and timeline -->
-              <div class="d-flex justify-content-between align-items-center px-md-3">
+              <div
+                class="d-flex justify-content-between align-items-center px-md-3"
+              >
                 <img
                   src="assets/pinterest_icon.png"
                   alt="pinterest logo"
@@ -330,7 +329,9 @@
 
       <section class="container text-center text-md-left margin_top">
         <!-- Research & Analysis Section -->
-        <div class="row align-items-start justify-content-around px-3 mb-5 mt-lg-5">
+        <div
+          class="row align-items-start justify-content-around px-3 mb-5 mt-lg-5"
+        >
           <div class="col-12 col-md-6 col-lg-4 mb-4 mb-md-0">
             <h3>1# Research & Analysis</h3>
             <p class="small_font_size">
@@ -351,7 +352,9 @@
         </div>
 
         <!-- Concept Development Section -->
-        <div class="row align-items-start justify-content-around px-3 my-5 my-lg-0">
+        <div
+          class="row align-items-start justify-content-around px-3 my-5 my-lg-0"
+        >
           <div class="col-12 col-md-5 col-lg-4 order-2 order-md-1">
             <img
               src="assets/girl_2.png"
@@ -390,9 +393,7 @@
       </section>
       <section class="container text-center margin_top">
         <!-- Section Intro -->
-        <p class="mb-4">
-          Hear from our customers from Top YouTube Channels
-        </p>
+        <p class="mb-4">Hear from our customers from Top YouTube Channels</p>
 
         <!-- Main Content -->
         <div class="col-12 col-lg-12 mx-auto my-lg-5 position-relative">
@@ -446,7 +447,7 @@
                     aria-label="Previous"
                     class="border border_pink rounded-circle p-2"
                   >
-                    <i class="fa-solid fa-arrow-left-long"></i>
+                    <i class="fa fa-long-arrow-left"></i>
                   </a>
                 </li>
                 <li class="page-item ml-2">
@@ -455,7 +456,7 @@
                     aria-label="Next"
                     class="border border_pink rounded-circle p-2 active"
                   >
-                    <i class="fa-solid fa-arrow-right-long"></i>
+                    <i class="fa fa-long-arrow-right"></i>
                   </a>
                 </li>
               </ul>
@@ -467,7 +468,9 @@
         <div class="row justify-content-center">
           <!-- Card 1 -->
           <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="bg_light_pink p-3 border_radius text-center text-lg-left">
+            <div
+              class="bg_light_pink p-3 border_radius text-center text-lg-left"
+            >
               <img
                 src="assets/Avatar_1.png"
                 alt="Man photo with side pose"
@@ -483,7 +486,9 @@
           </div>
           <!-- Card 2 -->
           <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="bg_dark_pink p-3 border_radius text-center text-lg-left">
+            <div
+              class="bg_dark_pink p-3 border_radius text-center text-lg-left"
+            >
               <img
                 src="assets/Avatar_2.png"
                 alt="Woman with front pose"
@@ -499,7 +504,9 @@
           </div>
           <!-- Card 3 -->
           <div class="col-12 col-md-6 col-lg-4 mb-4">
-            <div class="bg_light_pink p-3 border_radius text-center text-lg-left">
+            <div
+              class="bg_light_pink p-3 border_radius text-center text-lg-left"
+            >
               <img
                 src="assets/Avatar_3.png"
                 alt="Man photo with front face"
@@ -572,7 +579,7 @@
             <!-- Join button -->
             <div class="input-group-append position-absolute join_btn">
               <button
-                class="btn px-lg-4  rounded-pill bg_dark_pink small_font_size"
+                class="btn px-lg-4 rounded-pill bg_dark_pink small_font_size"
                 type="button"
               >
                 Join
@@ -582,9 +589,9 @@
         </div>
       </section>
     </main>
-    <footer class="container my-3 my-lg-5">
+    <footer class="container-fluid my-3 my-lg-5">
       <nav
-        class="d-flex flex-column flex-md-row justify-content-between align-items-center"
+        class="container d-flex flex-column flex-md-row justify-content-between align-items-center"
       >
         <!-- Copywriting Info -->
         <div class="text-center text-md-left mb-3 mb-md-0">
@@ -607,14 +614,14 @@
         </ul>
         <!-- Social Media Icons -->
         <div class="text-center text-md-right">
-          <a href="#" class="text-dark mx-2"
-            ><i class="fa-brands fa-instagram h4"></i
+          <a href="#" class="text-dark h4"
+            ><i class="fa fa-instagram"></i
           ></a>
-          <a href="#" class="text-dark mx-2"
-            ><i class="fa-brands fa-facebook h4"></i
+          <a href="#" class="text-dark mx-2 h4"
+            ><i class="fa fa-facebook-square rounded-circle"></i
           ></a>
-          <a href="#" class="text-dark mx-2"
-            ><i class="fa-brands fa-linkedin h4"></i
+          <a href="#" class="text-dark h4"
+            ><i class="fa fa-linkedin-square"></i
           ></a>
         </div>
       </nav>
